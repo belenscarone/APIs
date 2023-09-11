@@ -8,7 +8,6 @@ function mostrarPersonajes(data) {
             <h2>${character.name}</h2>
             <p>Especie: ${character.species}</p>
             <p>Género: ${character.gender}</p>
-            <p>Origen: ${character.origin.name}</p>
             <hr>
             `;
         characterList.appendChild(characterInfo);
